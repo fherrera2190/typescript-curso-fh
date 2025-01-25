@@ -6,6 +6,5 @@
     console.log(batman.toLocaleUpperCase());
     console.log(batman[10]?.toLocaleUpperCase());
     console.log(batman[10] ?? batman.toLocaleUpperCase());
-    //   const param = 5;
-    //   const value = param ?? 42;
 })();
+//# sourceMappingURL=strings.js.map

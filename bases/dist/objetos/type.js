@@ -5,13 +5,9 @@
         age: 24,
         powers: ["Super velocidad", "Viajar en el tiempo"],
     };
-    // Error: Property 'name2' does not exist on type
-    // flash={
-    //   name2: "Barry",
-    // }
-    flash = {
-        name: "Clark",
-        age: 24,
+    let superman = {
+        name: "Clark Kent",
+        age: 60,
         powers: ["Super fuerza"],
         getName() {
             return this.name;
